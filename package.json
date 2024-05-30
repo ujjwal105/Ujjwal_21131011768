@@ -1,0 +1,25 @@
+{
+  "name": "average-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "@types/node": "^14.14.35",
+    "@types/express": "^4.17.11",
+    "ts-node": "^9.1.1",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
